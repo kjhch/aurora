@@ -4,7 +4,7 @@ WORKDIR /home/admin
 
 ENV GOPROXY=https://goproxy.io,direct
 
-COPY .. .
+COPY . .
 
 RUN make all
 
