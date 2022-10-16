@@ -2,7 +2,7 @@ FROM golang:1.18 AS builder
 
 WORKDIR /home/admin
 
-ENV GOPROXY=https://goproxy.io,direct
+#ENV GOPROXY=https://goproxy.io,direct
 
 COPY . .
 
